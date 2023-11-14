@@ -32,12 +32,15 @@ class CategoryResource extends Resource
     protected static ?string $model = Category::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = 'مدیریت سیستم';
+    protected static ?string $navigationLabel ='دسته بندی ها ' ;
+    protected static ?string $modelLabel ='دسته بندی  ' ;
 
     public static function form(Form $form): Form
     {
         return $form
         ->schema([
-        Forms\Components\TextInput::make('title')->required()
+        Forms\Components\TextInput::make('title')->label(__('عنوان'))->required()
 
         ]);
     }

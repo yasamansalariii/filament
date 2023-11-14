@@ -6,6 +6,13 @@
       0 => 'Akaunting\\Money\\Provider',
     ),
   ),
+  'amidesfahani/filament-tinyeditor' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'AmidEsfahani\\FilamentTinyEditor\\TinyeditorServiceProvider',
+    ),
+  ),
   'ariaieboy/filament-currency' => 
   array (
     'providers' => 
@@ -94,6 +101,13 @@
       0 => 'Kirschbaum\\PowerJoins\\PowerJoinsServiceProvider',
     ),
   ),
+  'laravel/breeze' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Breeze\\BreezeServiceProvider',
+    ),
+  ),
   'laravel/sail' => 
   array (
     'providers' => 
@@ -124,6 +138,17 @@
     'aliases' => 
     array (
       'Livewire' => 'Livewire\\Livewire',
+    ),
+  ),
+  'mokhosh/filament-jalali' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Mokhosh\\FilamentJalali\\FilamentJalaliServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'FilamentJalali' => 'Mokhosh\\FilamentJalali\\Facades\\FilamentJalali',
     ),
   ),
   'nesbot/carbon' => 
